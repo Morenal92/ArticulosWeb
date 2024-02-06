@@ -1,0 +1,24 @@
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\dominio\bin\Debug\dominio.dll
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\dominio\bin\Debug\dominio.pdb
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.dll
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.pdb
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\dominio\bin\Debug\dominio.dll
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\dominio\bin\Debug\dominio.pdb
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.dll
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.pdb
+C:\Users\moren\Tp Final Corregido\dominio\bin\Debug\dominio.dll
+C:\Users\moren\Tp Final Corregido\dominio\bin\Debug\dominio.pdb
+C:\Users\moren\Tp Final Corregido\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\moren\Tp Final Corregido\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\moren\Tp Final Corregido\dominio\obj\Debug\dominio.dll
+C:\Users\moren\Tp Final Corregido\dominio\obj\Debug\dominio.pdb
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\dominio\bin\Debug\dominio.dll
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\dominio\bin\Debug\dominio.pdb
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.dll
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\dominio\obj\Debug\dominio.pdb

@@ -1,0 +1,54 @@
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\Negocio\bin\Debug\Negocio.dll
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\Negocio\bin\Debug\Negocio.pdb
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\Negocio\bin\Debug\dominio.dll
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\Negocio\bin\Debug\dominio.pdb
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.dll
+C:\Users\moren\OneDrive\Escritorio\CURSO C# NIVEL 2\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\Negocio\bin\Debug\Negocio.dll
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\Negocio\bin\Debug\dominio.dll
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\Negocio\bin\Debug\dominio.pdb
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.dll
+C:\Users\Pc\Desktop\Nueva carpeta\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.pdb
+C:\Users\moren\TPFinalNivel2_Lozain\Negocio\bin\Debug\Negocio.dll
+C:\Users\moren\TPFinalNivel2_Lozain\Negocio\bin\Debug\Negocio.pdb
+C:\Users\moren\TPFinalNivel2_Lozain\Negocio\bin\Debug\dominio.dll
+C:\Users\moren\TPFinalNivel2_Lozain\Negocio\bin\Debug\dominio.pdb
+C:\Users\moren\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\moren\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\moren\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\moren\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.dll
+C:\Users\moren\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.pdb
+C:\Users\moren\Tp Final Corregido\Negocio\bin\Debug\Negocio.dll
+C:\Users\moren\Tp Final Corregido\Negocio\bin\Debug\Negocio.pdb
+C:\Users\moren\Tp Final Corregido\Negocio\bin\Debug\dominio.dll
+C:\Users\moren\Tp Final Corregido\Negocio\bin\Debug\dominio.pdb
+C:\Users\moren\Tp Final Corregido\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\moren\Tp Final Corregido\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\moren\Tp Final Corregido\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\moren\Tp Final Corregido\Negocio\obj\Debug\Negocio.dll
+C:\Users\moren\Tp Final Corregido\Negocio\obj\Debug\Negocio.pdb
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\Negocio\bin\Debug\Negocio.dll
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\Negocio\bin\Debug\Negocio.pdb
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\Negocio\bin\Debug\dominio.dll
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\Negocio\bin\Debug\dominio.pdb
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.dll
+C:\Users\moren\MAXI PROGRAMA\CURSO NIVEL 2\TPFinalNivel2_Lozain\TPFinalNivel2_Lozain\Negocio\obj\Debug\Negocio.pdb
+C:\Users\moren\MAXI PROGRAMA\PRACTICA NIVEL 3\Articulos-appWeb\Negocio\bin\Debug\Negocio.dll
+C:\Users\moren\MAXI PROGRAMA\PRACTICA NIVEL 3\Articulos-appWeb\Negocio\bin\Debug\Negocio.pdb
+C:\Users\moren\MAXI PROGRAMA\PRACTICA NIVEL 3\Articulos-appWeb\Negocio\bin\Debug\dominio.dll
+C:\Users\moren\MAXI PROGRAMA\PRACTICA NIVEL 3\Articulos-appWeb\Negocio\bin\Debug\dominio.pdb
+C:\Users\moren\MAXI PROGRAMA\PRACTICA NIVEL 3\Articulos-appWeb\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\moren\MAXI PROGRAMA\PRACTICA NIVEL 3\Articulos-appWeb\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\moren\MAXI PROGRAMA\PRACTICA NIVEL 3\Articulos-appWeb\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\moren\MAXI PROGRAMA\PRACTICA NIVEL 3\Articulos-appWeb\Negocio\obj\Debug\Negocio.dll
+C:\Users\moren\MAXI PROGRAMA\PRACTICA NIVEL 3\Articulos-appWeb\Negocio\obj\Debug\Negocio.pdb

@@ -5,13 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using dominio;
 using System.Data.SqlClient;
+using System.Security.Cryptography;
 
 
 namespace Negocio
 {
     public class ArticuloNegocio
     {
-        public List<Articulo> listar()
+        public List<Articulo> listar(string id = "")
         {
             List<Articulo> lista = new List<Articulo>();
             SqlConnection conexion = new SqlConnection();
@@ -21,13 +22,15 @@ namespace Negocio
             {
                 conexion.ConnectionString = "server=MORENA\\SQLEXPRESS; database= CATALOGO_DB; integrated security = true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "Select A.Id, Codigo , Nombre, M.Descripcion Marca, C.Descripcion Categoria, A.Descripcion, ImagenUrl ,Precio,A.IdMarca, A.IdCategoria\r\nfrom ARTICULOS A, MARCAS M , CATEGORIAS C  \r\nWHERE(A.IdMarca = M.Id) and A.IdCategoria = C.Id";
+                comando.CommandText = "Select A.Id, Codigo , Nombre, M.Descripcion Marca, C.Descripcion Categoria, A.Descripcion, ImagenUrl ,Precio,A.IdMarca, A.IdCategoria\r\nfrom ARTICULOS A, MARCAS M , CATEGORIAS C  \r\nWHERE(A.IdMarca = M.Id) and A.IdCategoria = C.Id ";
+                if (id != "")
+                    comando.CommandText += " and A.Id = " + id;
                 comando.Connection = conexion;
 
                 conexion.Open();
                 lector = comando.ExecuteReader();
 
-                while(lector.Read())
+                while (lector.Read())
                 {
                     Articulo aux = new Articulo();
                     aux.Id = (int)lector["Id"];
@@ -35,22 +38,22 @@ namespace Negocio
                     aux.Nombre = (string)lector["Nombre"];
                     aux.Descripcion = (string)lector["Descripcion"];
 
-                    if(!(lector.IsDBNull(lector.GetOrdinal("ImagenUrl"))))
+                    if (!(lector.IsDBNull(lector.GetOrdinal("ImagenUrl"))))
                         aux.ImagenUrl = (string)lector["ImagenUrl"];
-                    
+
                     aux.Marca = new Marca();
                     aux.Marca.Id = (int)lector["IdMarca"];
 
 
                     aux.Marca.Descripcion = (string)lector["Marca"];
-                    
+
                     aux.Precio = (decimal)lector["Precio"];
 
                     aux.Categoria = new Categoria();
                     aux.Categoria.Id = (int)lector["IdCategoria"];
 
                     aux.Categoria.Descripcion = (string)lector["Categoria"];
-                   // aux.Categoria.Id = (int)lector["IdCategoria"];
+                    // aux.Categoria.Id = (int)lector["IdCategoria"];
 
 
                     lista.Add(aux);
@@ -65,7 +68,7 @@ namespace Negocio
                 throw ex;
             }
 
-            
+
 
         }
         public List<Articulo> listarConSP()
@@ -128,7 +131,7 @@ namespace Negocio
 
             try
             {
-                datos.SetearConsulta("Insert into Articulos (Codigo, Nombre, Descripcion, Precio , IdMarca , IdCategoria, ImagenUrl) values ('" +nuevo.Codigo + "',' " + nuevo.Nombre + " ', ' " + nuevo.Descripcion + " ',' " +  nuevo.Precio+ " ',@IdMarca , @IdCategoria, @ImagenUrl)");
+                datos.SetearConsulta("Insert into Articulos (Codigo, Nombre, Descripcion, Precio , IdMarca , IdCategoria, ImagenUrl) values ('" + nuevo.Codigo + "',' " + nuevo.Nombre + " ', ' " + nuevo.Descripcion + " ',' " + nuevo.Precio + " ',@IdMarca , @IdCategoria, @ImagenUrl)");
                 datos.setearParamentro("@IdMarca", nuevo.Marca.Id);
                 datos.setearParamentro("@IdCategoria", nuevo.Categoria.Id);
                 datos.setearParamentro("@ImagenUrl", nuevo.ImagenUrl);
@@ -139,6 +142,46 @@ namespace Negocio
             {
 
                 throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public void agregarConSP(Articulo nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+//            @codigo varchar(50),
+//@nombre varchar(50),
+//@desc varchar(150),
+//@IdMarca int,
+//@IdCategoria int,
+//@img varchar(1000),
+//@precio money
+
+            try
+            {
+                datos.setearProcedimiento("storedAltaArticulo");
+
+                datos.setearParamentro("@codigo", nuevo.Codigo);
+                datos.setearParamentro("@nombre", nuevo.Nombre);
+                datos.setearParamentro("@desc", nuevo.Descripcion);
+                datos.setearParamentro("@IdMarca", nuevo.Marca.Id);
+                datos.setearParamentro("@IdCategoria", nuevo.Categoria.Id);
+                datos.setearParamentro("@img", nuevo.ImagenUrl);
+                datos.setearParamentro("@precio", nuevo.Precio);
+                // datos.setearParamentro("@IdCategoria", nuevo.Categoria.Id);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
             }
         }
         public void modificar(Articulo arti)
@@ -185,9 +228,9 @@ namespace Negocio
 
                 throw ex;
             }
-    }
+        }
 
-        public List<Articulo>  filtrar(string campo, string criterio, string filtro)
+        public List<Articulo> filtrar(string campo, string criterio, string filtro)
         {
             List<Articulo> lista = new List<Articulo>();
             AccesoDatos datos = new AccesoDatos();
@@ -195,11 +238,11 @@ namespace Negocio
             {
                 string consulta = "Select A.Id, Codigo , Nombre, M.Descripcion Marca, C.Descripcion Categoria, A.Descripcion, ImagenUrl ,Precio,A.IdMarca, A.IdCategoria\r\nfrom ARTICULOS A, MARCAS M , CATEGORIAS C  \r\nWHERE(A.IdMarca = M.Id) and A.IdCategoria = C.Id And ";
 
-                if (campo == "Precio" )
+                if (campo == "Precio")
                 {
                     switch (criterio)
                     {
-                        case "Menor a ": 
+                        case "Menor a ":
                             consulta += "Precio < " + filtro;
                             break;
 
@@ -218,11 +261,11 @@ namespace Negocio
                     switch (criterio)
                     {
                         case "Comienza con":
-                            consulta += "Nombre like '"+ filtro + "%' ";
+                            consulta += "Nombre like '" + filtro + "%' ";
                             break;
 
                         case "Termina con":
-                            consulta += "Nombre like  '%" + filtro + "'" ;
+                            consulta += "Nombre like  '%" + filtro + "'";
                             break;
 
                         default:
@@ -289,7 +332,36 @@ namespace Negocio
                 throw ex;
             }
         }
+
+        public void modificarConSP(Articulo arti)
+        {
+            AccesoDatos datos = new AccesoDatos();  
+            try
+            {
+                datos.setearProcedimiento("storedModificarArticulo");
+                datos.setearParamentro("@codigo", arti.Codigo);
+                datos.setearParamentro("@nombre", arti.Nombre);
+                datos.setearParamentro("@desc", arti.Descripcion);
+                datos.setearParamentro("@IdMarca", arti.Marca.Id);
+                datos.setearParamentro("@IdCategoria", arti.Categoria.Id);
+                datos.setearParamentro("@img", arti.ImagenUrl);
+                datos.setearParamentro("@precio", arti.Precio);
+                datos.setearParamentro("@Id", arti.Id);
+
+                datos.ejecutarAccion();
+            }
+
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 
-  
+
 }
